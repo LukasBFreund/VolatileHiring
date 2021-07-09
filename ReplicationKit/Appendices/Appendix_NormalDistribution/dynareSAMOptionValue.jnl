@@ -1,0 +1,232 @@
+This is Dynare++, Copyright (C) 2004-2011, Ondra Kamenik
+Dynare++ comes with ABSOLUTELY NO WARRANTY and is distributed under
+GPL: modules integ, tl, kord, sylv, src, extern and documentation
+LGPL: modules parser, utils
+ for GPL  see http://www.gnu.org/licenses/gpl.html
+ for LGPL see http://www.gnu.org/licenses/lgpl.html
+
+
+System info: (not implemented for MINGW)
+Start time:  (not implemented for MINGW)
+
+  ------ elapsed time (seconds)                     
+  |       ------ record unique identifier           
+  |       |     ------ load average                 
+  |       |     |    ------ available memory (MB)   
+  |       |     |    |     ------  major faults (MB)
+  |       |     |    |     |                        
+  V       V     V    V     V                        
+
+5850.99:S00000:-1.:00361:      : Non-linear solver for deterministic steady state By-passed 
+5850.99:E00000:-1.:00361:000000: Non-linear solver for deterministic steady state By-passed 
+5851.01:S00001:-1.:360.9:      : Recovering first order derivatives 
+5851.01:M00002:-1.:360.9:      :   Blanchard-Kahn conditition satisfied, model stable
+5851.01:E00001:-1.:360.9:000000: Recovering first order derivatives 
+5851.01:S00003:-1.:360.9:      : Faa Di Bruno G container for [1,0,0,0]
+5851.01:M00004:-1.:360.9:      :   dim=1 avmem=360
+5851.01:E00003:-1.:360.9:000000: Faa Di Bruno G container for [1,0,0,0]
+5851.01:S00005:-1.:360.9:      : Faa Di Bruno G container for [0,1,0,0]
+5851.01:M00006:-1.:360.9:      :   dim=1 avmem=360
+5851.01:E00005:-1.:360.9:000000: Faa Di Bruno G container for [0,1,0,0]
+5851.01:S00007:-1.:360.9:      : Faa Di Bruno G container for [0,0,1,0]
+5851.01:M00008:-1.:360.9:      :   dim=1 avmem=360
+5851.01:E00007:-1.:360.9:000000: Faa Di Bruno G container for [0,0,1,0]
+5851.01:S00009:-1.:360.9:      : Switching from unfolded to folded
+5851.01:E00009:-1.:360.9:000000: Switching from unfolded to folded
+5851.01:S00010:-1.:360.9:      : Performing step for order = 2
+5851.01:S00011:-1.:360.9:      :   Recovering symmetry [2,0,0,0]
+5851.01:S00012:-1.:360.9:      :     Faa Di Bruno G container for [2,0,0,0]
+5851.01:M00013:-1.:360.9:      :       dim=1 avmem=360
+5851.01:M00014:-1.:360.9:      :       dim=2 avmem=360
+5851.01:E00012:-1.:360.9:000000:     Faa Di Bruno G container for [2,0,0,0]
+5851.01:S00015:-1.:360.9:      :     Faa Di Bruno Z container for [2,0,0,0]
+5851.01:M00016:-1.:360.9:      :       dim=1 avmem=360 tmpmem=0 max=946161 stacks=4->4
+5851.01:M00017:-1.:360.9:      :       dim=2 avmem=360 tmpmem=0 max=972 stacks=4->4
+5851.01:E00015:-1.:360.9:000000:     Faa Di Bruno Z container for [2,0,0,0]
+5851.01:S00018:-1.:360.9:      :     Sylvester equation for dimension = 2
+5851.01:E00018:-1.:360.9:000000:     Sylvester equation for dimension = 2
+5851.01:E00011:-1.:360.9:000000:   Recovering symmetry [2,0,0,0]
+5851.01:S00019:-1.:360.9:      :   Recovering symmetry [0,2,0,0]
+5851.01:S00020:-1.:360.9:      :     Faa Di Bruno G container for [0,2,0,0]
+5851.01:M00021:-1.:360.9:      :       dim=1 avmem=360
+5851.01:M00022:-1.:360.9:      :       dim=2 avmem=360
+5851.01:E00020:-1.:360.9:000000:     Faa Di Bruno G container for [0,2,0,0]
+5851.01:S00023:-1.:360.9:      :     Faa Di Bruno Z container for [0,2,0,0]
+5851.01:M00024:-1.:360.9:      :       dim=1 avmem=360 tmpmem=0 max=946161 stacks=4->4
+5851.01:M00025:-1.:360.9:      :       dim=2 avmem=360 tmpmem=0 max=972 stacks=4->4
+5851.01:E00023:-1.:360.9:000000:     Faa Di Bruno Z container for [0,2,0,0]
+5851.01:E00019:-1.:360.9:000000:   Recovering symmetry [0,2,0,0]
+5851.01:S00026:-1.:360.9:      :   Recovering symmetry [1,1,0,0]
+5851.01:S00027:-1.:360.9:      :     Faa Di Bruno G container for [1,1,0,0]
+5851.01:M00028:-1.:360.9:      :       dim=1 avmem=360
+5851.01:M00029:-1.:360.9:      :       dim=2 avmem=360
+5851.01:E00027:-1.:360.9:000000:     Faa Di Bruno G container for [1,1,0,0]
+5851.01:S00030:-1.:360.9:      :     Faa Di Bruno Z container for [1,1,0,0]
+5851.01:M00031:-1.:360.9:      :       dim=1 avmem=360 tmpmem=0 max=946161 stacks=4->4
+5851.01:M00032:-1.:361.4:      :       dim=2 avmem=360 tmpmem=0 max=972 stacks=4->4
+5851.01:E00030:-1.:361.4:000000:     Faa Di Bruno Z container for [1,1,0,0]
+5851.01:E00026:-1.:361.4:000000:   Recovering symmetry [1,1,0,0]
+5851.01:S00033:-1.:361.4:      :   Recovering symmetry [1,0,0,1]
+5851.01:S00034:-1.:361.4:      :     Faa Di Bruno G container for [1,0,1,0]
+5851.01:M00035:-1.:361.4:      :       dim=1 avmem=361
+5851.01:M00036:-1.:361.4:      :       dim=2 avmem=361
+5851.01:E00034:-1.:361.4:000000:     Faa Di Bruno G container for [1,0,1,0]
+5851.01:E00033:-1.:361.4:000000:   Recovering symmetry [1,0,0,1]
+5851.01:S00037:-1.:361.4:      :   Recovering symmetry [0,1,0,1]
+5851.01:S00038:-1.:361.4:      :     Faa Di Bruno G container for [0,1,1,0]
+5851.01:M00039:-1.:361.4:      :       dim=1 avmem=361
+5851.01:M00040:-1.:361.4:      :       dim=2 avmem=361
+5851.01:E00038:-1.:361.4:000000:     Faa Di Bruno G container for [0,1,1,0]
+5851.01:E00037:-1.:361.4:000000:   Recovering symmetry [0,1,0,1]
+5851.01:S00041:-1.:361.4:      :   Recovering symmetry [0,0,0,2]
+5851.01:S00042:-1.:361.4:      :     Faa Di Bruno G container for [0,0,2,0]
+5851.01:M00043:-1.:361.4:      :       dim=1 avmem=361
+5851.01:M00044:-1.:361.4:      :       dim=2 avmem=361
+5851.01:E00042:-1.:361.4:000000:     Faa Di Bruno G container for [0,0,2,0]
+5851.01:S00045:-1.:361.4:      :     Faa Di Bruno G container for [0,0,0,2]
+5851.01:M00046:-1.:361.4:      :       dim=1 avmem=361
+5851.01:M00047:-1.:361.4:      :       dim=2 avmem=361
+5851.01:E00045:-1.:361.4:000000:     Faa Di Bruno G container for [0,0,0,2]
+5851.01:S00048:-1.:361.4:      :     Faa Di Bruno Z container for [0,0,0,2]
+5851.01:M00049:-1.:361.4:      :       dim=1 avmem=361 tmpmem=0 max=947502 stacks=4->4
+5851.01:M00050:-1.:361.6:      :       dim=2 avmem=361 tmpmem=0 max=973 stacks=4->4
+5851.01:E00048:-1.:361.6:000000:     Faa Di Bruno Z container for [0,0,0,2]
+5851.01:S00051:-1.:361.6:      :     Faa Di Bruno Z container for [0,0,2,0]
+5851.01:M00052:-1.:361.6:      :       dim=1 avmem=361 tmpmem=0 max=947840 stacks=4->4
+5851.01:M00053:-1.:361.6:      :       dim=2 avmem=361 tmpmem=0 max=973 stacks=4->4
+5851.01:E00051:-1.:361.6:000000:     Faa Di Bruno Z container for [0,0,2,0]
+5851.01:E00041:-1.:361.6:000000:   Recovering symmetry [0,0,0,2]
+5851.01:E00010:-1.:361.6:000000: Performing step for order = 2
+5851.01:S00054:-1.:361.6:      : Performing step for order = 3
+5851.01:S00055:-1.:361.6:      :   Recovering symmetry [3,0,0,0]
+5851.01:S00056:-1.:361.6:      :     Faa Di Bruno G container for [3,0,0,0]
+5851.01:M00057:-1.:361.6:      :       dim=1 avmem=361
+5851.01:M00058:-1.:361.6:      :       dim=2 avmem=361
+5851.01:M00059:-1.:361.6:      :       dim=3 avmem=361
+5851.01:E00056:-1.:361.6:000000:     Faa Di Bruno G container for [3,0,0,0]
+5851.01:S00060:-1.:361.6:      :     Faa Di Bruno Z container for [3,0,0,0]
+5851.01:M00061:-1.:361.6:      :       dim=1 avmem=361 tmpmem=0 max=947840 stacks=4->4
+5851.01:M00062:-1.:361.7:      :       dim=2 avmem=361 tmpmem=0 max=973 stacks=4->4
+5851.03:M00063:-1.:00358:      :       dim=3 avmem=361 tmpmem=0 max=98 stacks=4->4
+5851.03:E00060:-1.:00358:000000:     Faa Di Bruno Z container for [3,0,0,0]
+5851.03:S00064:-1.:00358:      :     Sylvester equation for dimension = 3
+5851.03:E00064:-1.:00358:000000:     Sylvester equation for dimension = 3
+5851.03:E00055:-1.:00358:000000:   Recovering symmetry [3,0,0,0]
+5851.03:S00065:-1.:00358:      :   Recovering symmetry [0,3,0,0]
+5851.03:S00066:-1.:00358:      :     Faa Di Bruno G container for [0,3,0,0]
+5851.03:M00067:-1.:00358:      :       dim=1 avmem=357
+5851.03:M00068:-1.:00358:      :       dim=2 avmem=357
+5851.03:M00069:-1.:00358:      :       dim=3 avmem=357
+5851.03:E00066:-1.:00358:000000:     Faa Di Bruno G container for [0,3,0,0]
+5851.03:S00070:-1.:00358:      :     Faa Di Bruno Z container for [0,3,0,0]
+5851.03:M00071:-1.:00358:      :       dim=1 avmem=357 tmpmem=0 max=938440 stacks=4->4
+5851.03:M00072:-1.:357.8:      :       dim=2 avmem=357 tmpmem=0 max=968 stacks=4->4
+5851.04:M00073:-1.:350.6:      :       dim=3 avmem=357 tmpmem=0 max=97 stacks=4->4
+5851.04:E00070:-1.:350.6:000000:     Faa Di Bruno Z container for [0,3,0,0]
+5851.04:E00065:-1.:350.6:000000:   Recovering symmetry [0,3,0,0]
+5851.04:S00074:-1.:350.6:      :   Recovering symmetry [1,2,0,0]
+5851.04:S00075:-1.:350.6:      :     Faa Di Bruno G container for [1,2,0,0]
+5851.04:M00076:-1.:350.6:      :       dim=1 avmem=350
+5851.04:M00077:-1.:350.6:      :       dim=2 avmem=350
+5851.04:M00078:-1.:350.6:      :       dim=3 avmem=350
+5851.04:E00075:-1.:350.6:000000:     Faa Di Bruno G container for [1,2,0,0]
+5851.04:S00079:-1.:350.6:      :     Faa Di Bruno Z container for [1,2,0,0]
+5851.04:M00080:-1.:350.6:      :       dim=1 avmem=350 tmpmem=0 max=919137 stacks=4->4
+5851.04:M00081:-1.:351.1:      :       dim=2 avmem=350 tmpmem=0 max=958 stacks=4->4
+5851.05:M00082:-1.:351.5:      :       dim=3 avmem=351 tmpmem=0 max=97 stacks=4->4
+5851.05:E00079:-1.:351.5:000000:     Faa Di Bruno Z container for [1,2,0,0]
+5851.05:E00074:-1.:351.5:000000:   Recovering symmetry [1,2,0,0]
+5851.05:S00083:-1.:351.5:      :   Recovering symmetry [2,1,0,0]
+5851.05:S00084:-1.:351.5:      :     Faa Di Bruno G container for [2,1,0,0]
+5851.05:M00085:-1.:351.5:      :       dim=1 avmem=351
+5851.06:M00086:-1.:351.5:      :       dim=2 avmem=351
+5851.06:M00087:-1.:351.5:      :       dim=3 avmem=351
+5851.06:E00084:-1.:351.5:000000:     Faa Di Bruno G container for [2,1,0,0]
+5851.06:S00088:-1.:351.5:      :     Faa Di Bruno Z container for [2,1,0,0]
+5851.06:M00089:-1.:351.5:      :       dim=1 avmem=351 tmpmem=0 max=921513 stacks=4->4
+5851.06:M00090:-1.:351.5:      :       dim=2 avmem=351 tmpmem=0 max=959 stacks=4->4
+5851.06:M00091:-1.:353.8:      :       dim=3 avmem=351 tmpmem=0 max=97 stacks=4->4
+5851.06:E00088:-1.:353.8:000000:     Faa Di Bruno Z container for [2,1,0,0]
+5851.06:E00083:-1.:353.8:000000:   Recovering symmetry [2,1,0,0]
+5851.06:S00092:-1.:353.8:      :   Recovering symmetry [2,0,0,1]
+5851.06:S00093:-1.:353.8:      :     Faa Di Bruno G container for [2,0,1,0]
+5851.06:M00094:-1.:353.8:      :       dim=1 avmem=353
+5851.06:M00095:-1.:353.8:      :       dim=2 avmem=353
+5851.06:M00096:-1.:353.8:      :       dim=3 avmem=353
+5851.06:E00093:-1.:353.8:000000:     Faa Di Bruno G container for [2,0,1,0]
+5851.06:E00092:-1.:353.8:000000:   Recovering symmetry [2,0,0,1]
+5851.06:S00097:-1.:353.8:      :   Recovering symmetry [1,1,0,1]
+5851.06:S00098:-1.:353.8:      :     Faa Di Bruno G container for [1,1,1,0]
+5851.06:M00099:-1.:353.8:      :       dim=1 avmem=353
+5851.06:M00100:-1.:353.8:      :       dim=2 avmem=353
+5851.06:M00101:-1.:353.8:      :       dim=3 avmem=353
+5851.06:E00098:-1.:353.8:000000:     Faa Di Bruno G container for [1,1,1,0]
+5851.06:E00097:-1.:353.8:000000:   Recovering symmetry [1,1,0,1]
+5851.06:S00102:-1.:353.8:      :   Recovering symmetry [1,0,0,2]
+5851.06:S00103:-1.:353.8:      :     Faa Di Bruno G container for [1,0,2,0]
+5851.06:M00104:-1.:353.8:      :       dim=1 avmem=353
+5851.06:M00105:-1.:353.8:      :       dim=2 avmem=353
+5851.06:M00106:-1.:353.8:      :       dim=3 avmem=353
+5851.06:E00103:-1.:353.8:000000:     Faa Di Bruno G container for [1,0,2,0]
+5851.06:S00107:-1.:353.8:      :     Faa Di Bruno G container for [1,0,0,2]
+5851.06:M00108:-1.:353.8:      :       dim=1 avmem=353
+5851.06:M00109:-1.:353.8:      :       dim=2 avmem=353
+5851.07:M00110:-1.:353.8:      :       dim=3 avmem=353
+5851.07:E00107:-1.:353.8:000000:     Faa Di Bruno G container for [1,0,0,2]
+5851.07:S00111:-1.:353.8:      :     Faa Di Bruno Z container for [1,0,0,2]
+5851.07:M00112:-1.:353.8:      :       dim=1 avmem=353 tmpmem=0 max=927422 stacks=4->4
+5851.07:M00113:-1.:353.8:      :       dim=2 avmem=353 tmpmem=0 max=963 stacks=4->4
+5851.08:M00114:-1.:355.4:      :       dim=3 avmem=353 tmpmem=0 max=97 stacks=4->4
+5851.08:E00111:-1.:355.4:000000:     Faa Di Bruno Z container for [1,0,0,2]
+5851.08:S00115:-1.:355.4:      :     Faa Di Bruno Z container for [1,0,2,0]
+5851.08:M00116:-1.:355.4:      :       dim=1 avmem=355 tmpmem=0 max=931538 stacks=4->4
+5851.08:M00117:-1.:355.4:      :       dim=2 avmem=355 tmpmem=0 max=965 stacks=4->4
+05851.1:M00118:-1.:356.9:      :       dim=3 avmem=355 tmpmem=0 max=97 stacks=4->4
+05851.1:E00115:-1.:356.9:000000:     Faa Di Bruno Z container for [1,0,2,0]
+05851.1:S00119:-1.:356.9:      :     Sylvester equation for dimension = 1
+05851.1:E00119:-1.:356.9:000000:     Sylvester equation for dimension = 1
+05851.1:E00102:-1.:356.9:000000:   Recovering symmetry [1,0,0,2]
+05851.1:S00120:-1.:356.9:      :   Recovering symmetry [0,2,0,1]
+05851.1:S00121:-1.:356.9:      :     Faa Di Bruno G container for [0,2,1,0]
+05851.1:M00122:-1.:356.9:      :       dim=1 avmem=356
+05851.1:M00123:-1.:356.9:      :       dim=2 avmem=356
+05851.1:M00124:-1.:356.9:      :       dim=3 avmem=356
+05851.1:E00121:-1.:356.9:000000:     Faa Di Bruno G container for [0,2,1,0]
+05851.1:E00120:-1.:356.9:000000:   Recovering symmetry [0,2,0,1]
+05851.1:S00125:-1.:356.9:      :   Recovering symmetry [0,1,0,2]
+05851.1:S00126:-1.:356.9:      :     Faa Di Bruno G container for [0,1,2,0]
+05851.1:M00127:-1.:356.9:      :       dim=1 avmem=356
+05851.1:M00128:-1.:356.9:      :       dim=2 avmem=356
+05851.1:M00129:-1.:356.9:      :       dim=3 avmem=356
+05851.1:E00126:-1.:356.9:000000:     Faa Di Bruno G container for [0,1,2,0]
+05851.1:S00130:-1.:356.9:      :     Faa Di Bruno G container for [0,1,0,2]
+05851.1:M00131:-1.:356.9:      :       dim=1 avmem=356
+05851.1:M00132:-1.:356.9:      :       dim=2 avmem=356
+05851.1:M00133:-1.:356.9:      :       dim=3 avmem=356
+05851.1:E00130:-1.:356.9:000000:     Faa Di Bruno G container for [0,1,0,2]
+05851.1:S00134:-1.:356.9:      :     Faa Di Bruno Z container for [0,1,0,2]
+05851.1:M00135:-1.:356.9:      :       dim=1 avmem=356 tmpmem=0 max=935532 stacks=4->4
+05851.1:M00136:-1.:356.9:      :       dim=2 avmem=356 tmpmem=0 max=967 stacks=4->4
+5851.12:M00137:-1.:360.3:      :       dim=3 avmem=356 tmpmem=0 max=97 stacks=4->4
+5851.12:E00134:-1.:360.3:000000:     Faa Di Bruno Z container for [0,1,0,2]
+5851.12:S00138:-1.:360.3:      :     Faa Di Bruno Z container for [0,1,2,0]
+5851.12:M00139:-1.:360.3:      :       dim=1 avmem=360 tmpmem=0 max=944584 stacks=4->4
+5851.12:M00140:-1.:360.3:      :       dim=2 avmem=360 tmpmem=0 max=971 stacks=4->4
+5851.13:M00141:-1.:361.8:      :       dim=3 avmem=360 tmpmem=0 max=98 stacks=4->4
+5851.13:E00138:-1.:361.8:000000:     Faa Di Bruno Z container for [0,1,2,0]
+5851.13:E00125:-1.:361.8:000000:   Recovering symmetry [0,1,0,2]
+5851.13:S00142:-1.:361.8:      :   Recovering symmetry [0,0,0,3]
+5851.13:S00143:-1.:361.8:      :     Faa Di Bruno G container for [0,0,1,2]
+5851.13:M00144:-1.:361.8:      :       dim=1 avmem=361
+5851.13:M00145:-1.:361.8:      :       dim=2 avmem=361
+5851.13:M00146:-1.:361.8:      :       dim=3 avmem=361
+5851.13:E00143:-1.:361.8:000000:     Faa Di Bruno G container for [0,0,1,2]
+5851.13:S00147:-1.:361.8:      :     Faa Di Bruno G container for [0,0,3,0]
+5851.13:M00148:-1.:361.8:      :       dim=1 avmem=361
+5851.13:M00149:-1.:361.8:      :       dim=2 avmem=361
+5851.13:M00150:-1.:361.8:      :       dim=3 avmem=361
+5851.13:E00147:-1.:361.8:000000:     Faa Di Bruno G container for [0,0,3,0]
+5851.13:E00142:-1.:361.8:000000:   Recovering symmetry [0,0,0,3]
+5851.13:E00054:-1.:361.8:000000: Performing step for order = 3
+5851.13:M00151:-1.:361.8:      : Error of current approximation for shocks at sigma 0.000000 is 0.000000
+5851.13:M00152:-1.:361.8:      : Error of current approximation for full shocks is 0.000012

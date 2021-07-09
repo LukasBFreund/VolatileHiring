@@ -1,0 +1,109 @@
+Starting Dynare (version 4.4.3).
+Starting preprocessing of the model file ...
+Found 24 equation(s).
+Evaluating expressions...done
+Computing static model derivatives:
+ - order 1
+Computing dynamic model derivatives:
+ - order 1
+ - order 2
+ - order 3
+Processing outputs ...done
+Preprocessing completed.
+Starting MATLAB/Octave computing.
+
+
+
+
+Residuals of the static equations:
+
+Equation number 1 : 0 : Searching workers
+Equation number 2 : 0 : Matching function
+Equation number 3 : 0 : Job finding rate 
+Equation number 4 : 0 : Vacancy filling rate
+Equation number 5 : 0 : Employment law of motion
+Equation number 6 : 0 : Unemployment rate
+Equation number 7 : 0 : Match value at cutoff
+Equation number 8 : 0
+Equation number 9 : 0 : Expected value of newly matched firm
+Equation number 10 : 0
+Equation number 11 : 0 : Value of unmatched entrepreneur
+Equation number 12 : 0 : Indifference condition
+Equation number 13 : 0 : Definition of p
+Equation number 14 : 0 : Definition of a-Star
+Equation number 15 : 0 : Vacancy creation
+Equation number 16 : 0 : Aggregate productivity
+Equation number 17 : 0 : Aggregate productivity volatility
+Equation number 18 : 0 : Output
+Equation number 19 : 0 : Value of matched entrepreneur at steady state cut-off level
+Equation number 20 : 0
+Equation number 21 : 0 : Value of entrepreneur leaving without match
+Equation number 22 : 0
+Equation number 23 : 0
+Equation number 24 : 0
+
+
+
+STEADY-STATE RESULTS:
+
+m                  		 0.0936
+n                  		 0.936
+u                  		 0.064
+us                 		 0.1576
+v                  		 0.133714
+h                  		 0.7
+z                  		 0.999134
+f                  		 0.593909
+y                  		 0.936
+sigma_z            		 0.01
+p                  		 0.5
+aHat               		 -3.75662e-10
+aStar              		 0.000866025
+JaHat              		 0.228408
+JStar              		 0.229228
+JU                 		 0.0286953
+JaHat_aHatSS       		 0.228408
+JaHatPTilde        		 0.228408
+JStarPTilde        		 0.228408
+JU_d               		 0.0284083
+JaHatPTilde_aHatSS 		 0.228408
+n_Obs              		 0.936
+z_Obs              		 0.999134
+sigma_z_Obs        		 0.01
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+
+          0.3676           0.3676                0
+            0.76             0.76                0
+            0.95             0.95                0
+           1.013            1.013                0
+           1.122            1.122                0
+           1.122            1.122                0
+           1.122            1.122                0
+
+
+There are 4 eigenvalue(s) larger than 1 in modulus 
+for 4 forward-looking variable(s)
+
+The rank condition is verified.
+
+
+MODEL SUMMARY
+
+  Number of variables:         24
+  Number of stochastic shocks: 2
+  Number of state variables:   3
+  Number of jumpers:           4
+  Number of static variables:  17
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+
+Variables     eps_z     eps_s  
+eps_z        1.000000  0.000000
+eps_s        0.000000  1.000000
+
+Run time for computation of IRFs a la Andreasen was 0.67984 seconds
+Total computing time : 0h00m01s
+Note: warning(s) encountered in MATLAB/Octave code

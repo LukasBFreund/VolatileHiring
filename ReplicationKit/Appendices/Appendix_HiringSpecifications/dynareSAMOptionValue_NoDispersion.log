@@ -1,0 +1,139 @@
+Starting Dynare (version 4.4.3).
+Starting preprocessing of the model file ...
+Found 24 equation(s).
+Evaluating expressions...done
+Computing static model derivatives:
+ - order 1
+Computing dynamic model derivatives:
+ - order 1
+ - order 2
+ - order 3
+Processing outputs ...done
+Preprocessing completed.
+Starting MATLAB/Octave computing.
+ynare_config', 'C:\dynare\4.4.3\matlab\dynare_config.m', 65)" style="font-weight:bold">dynare_config</a> (<a href="matlab: opentoline('C:\dynare\4.4.3\matlab\dynare_config.m',65,0)">line 65</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dynare', 'C:\dynare\4.4.3\matlab\dynare.m', 48)" style="font-weight:bold">dynare</a> (<a href="matlab: opentoline('C:\dynare\4.4.3\matlab\dynare.m',48,0)">line 48</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mainSaMOptionValue', 'C:\Users\lbf25\Dropbox\ECON PHD\Projects\SaM -Uncertainty -- working dir\Model with option value\Main code for revision\Appendix - alternative cost specification\mainSaMOptionValue.m', 290)" style="font-weight:bold">mainSaMOptionValue</a> (<a href="matlab: opentoline('C:\Users\lbf25\Dropbox\ECON PHD\Projects\SaM -Uncertainty -- working dir\Model with option value\Main code for revision\Appendix - alternative cost specification\mainSaMOptionValue.m',290,0)">line 290</a>)] 
+
+Configuring Dynare ...
+[mex] Generalized QZ.
+[mex] Sylvester equation solution.
+[mex] Kronecker products.
+[mex] Sparse kronecker products.
+[mex] Local state space iteration (second order).
+[mex] Bytecode evaluation.
+[mex] k-order perturbation solver.
+[mex] k-order solution simulation.
+[mex] Quasi Monte-Carlo sequence (Sobol).
+[mex] Markov Switching SBVAR.
+
+Starting Dynare (version 4.4.3).
+Starting preprocessing of the model file ...
+Found 24 equation(s).
+Evaluating expressions...done
+Computing static model derivatives:
+ - order 1
+Computing dynamic model derivatives:
+ - order 1
+ - order 2
+ - order 3
+Processing outputs ...done
+Preprocessing completed.
+Starting MATLAB/Octave computing.
+
+
+
+
+
+Residuals of the static equations:
+
+Equation number 1 : 0 : Searching workers
+Equation number 2 : 0 : Matching function
+Equation number 3 : 0 : Job finding rate 
+Equation number 4 : 0 : Vacancy filling rate
+Equation number 5 : 0 : Employment law of motion
+Equation number 6 : 0 : Unemployment rate
+Equation number 7 : 0 : Match value at cutoff
+Equation number 8 : 0
+Equation number 9 : 0 : Expected value of newly matched firm
+Equation number 10 : 0
+Equation number 11 : 0 : Value of unmatched entrepreneur
+Equation number 12 : 0 : Indifference condition
+Equation number 13 : 0 : Definition of a-Star
+Equation number 14 : 0
+Equation number 15 : 0 : Vacancy creation
+Equation number 16 : 0 : Aggregate productivity
+Equation number 17 : 0 : Aggregate productivity volatility
+Equation number 18 : 0 : Output
+Equation number 19 : 0 : Value of matched entrepreneur at steady state cut-off level
+Equation number 20 : 0
+Equation number 21 : 0 : Value of entrepreneur leaving without match
+Equation number 22 : 0
+Equation number 23 : 0
+Equation number 24 : 0
+
+
+
+STEADY-STATE RESULTS:
+
+m                  		 0.0936
+n                  		 0.936
+u                  		 0.064
+us                 		 0.1576
+v                  		 0.133714
+h                  		 0.7
+z                  		 1
+f                  		 0.593909
+y                  		 0.936
+sigma_z            		 0.01
+p                  		 0.5
+aHat               		 0
+aStar              		 0
+JaHat              		 0.2
+JaHatPTilde        		 0.2
+JStar              		 0.2
+JStarPTilde        		 0.2
+JU                 		 0
+JU_d               		 0
+JaHat_aHatSS       		 0.2
+JaHatPTilde_aHatSS 		 0.2
+n_Obs              		 0.936
+z_Obs              		 1
+sigma_z_Obs        		 0.01
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+
+          0.3655           0.3655                0
+            0.76             0.76                0
+            0.95             0.95                0
+            1.01             1.01                0
+           1.122            1.122                0
+           1.122            1.122                0
+           1.122            1.122                0
+
+
+There are 4 eigenvalue(s) larger than 1 in modulus 
+for 4 forward-looking variable(s)
+
+The rank condition is verified.
+
+
+MODEL SUMMARY
+
+  Number of variables:         24
+  Number of stochastic shocks: 2
+  Number of state variables:   3
+  Number of jumpers:           4
+  Number of static variables:  17
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+
+Variables     eps_z     eps_s  
+eps_z        1.000000  0.000000
+eps_s        0.000000  1.000000
+
+Run time for computation of IRFs a la Andreasen was 0.43601 seconds
+Total computing time : 0h00m00s
+Note: warning(s) encountered in MATLAB/Octave code

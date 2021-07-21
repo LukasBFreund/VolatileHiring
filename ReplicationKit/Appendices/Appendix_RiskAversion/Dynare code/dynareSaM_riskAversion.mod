@@ -1,5 +1,5 @@
 //=========================================================================
-// Dynare replication code for den Haan, Freund and Rendahl (2020)
+// Dynare replication code for den Haan, Freund and Rendahl (2021)
 // Extension to risk-aversion
 // Last updated: September 2020
 // Please email lukas.beat.freund@gmail.com with any questions

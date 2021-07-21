@@ -1,8 +1,9 @@
 //=========================================================================
+// Replication code for den Haan, Freund and Rendahl (2021)
 // SaM model with option-value effect due to heterogeneous productivity 
 // draws and finite mass of potential entrepeneurs.
-// Version with additive production function, entrepreneur 'death'
-// Holds and runs only for sigma_a > 0
+// Holds and runs only for sigma_a = 0 
+// Last updated: November 2020
 //=========================================================================
 
 //=========================================================================
